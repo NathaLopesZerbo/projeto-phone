@@ -45,7 +45,7 @@ body{
     position: absolute;
     bottom: -1px;
     left: 0px;
-    background-color: rgb(255, 193, 57);
+    background-color: #ff8139;
     width: 0px;
     height: 3px;
     transition: 0.4s ease-in-out;
@@ -53,6 +53,10 @@ body{
 
 .nav-item:hover .nav-link::after{
     width: 100%;
+}
+
+.nav-link:hover{
+    color: #ff8139;
 }
 
 
@@ -66,7 +70,16 @@ body{
     font-size: 14px;
     font-weight: 600;
     background-color: #24c1ff;
+    transition: 0.2s ease-in-out;
 }
+
+.btn-navbar:hover{
+    background-color: transparent;
+    color: #ff8139;
+    border: 1px solid #ff8139;
+}
+
+
 /* -------------------Navbar Superior--------------------------- */
 
 
@@ -83,6 +96,12 @@ body{
     font-weight: 700;
     line-height: 74px;
 }
+
+.home-span{
+    color: #ff8139;
+}
+
+
 
 .para-home{ 
     font-size: 13px;
@@ -105,9 +124,116 @@ body{
     padding: 10px 37px;
     font-size: 14px;
     font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.btn-2{
+    border: 1px solid #24c1ff;
+    color: #24c1ff;
+    background-color: transparent;
+}
+
+.home-links:hover{
+    background-color: transparent;
+    color: #ff8139;
+    border: 1px solid #ff8139 !important;
 }
 
 .img-home{
     margin-right: 20px;
     width: 580px;
+}
+
+/* About Section */
+
+.about-us-container{
+    width: 100%;
+    height: 80vh;
+}
+
+.about-us{
+    width: 100%;
+    height: 320px;
+    background-color: rgb(54, 54, 54);
+    margin-top: 140px;
+    position: relative;
+}
+
+.content-about{
+    padding: 10px 38px;
+}
+
+
+.heading-about{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ff8139;
+    margin: 10px 0px;
+    margin-bottom: 34px;
+    position: relative;
+}
+
+.heading-about::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    background-color: #ff8139;
+    width: 46px;
+    height: 2px;
+} 
+
+.para-about{
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffffb1;
+    line-height: 21px;
+    margin: 25px 0px;
+}
+
+.link-about{
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 129, 57, 0.5);
+    color: #ff8139;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 8px 22px;
+    position: relative;
+    z-index: 1;
+}
+
+.link-about:hover{
+    color: white;
+}
+
+.span-about{    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #ff8139;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: 0.4s ease-in;
+}
+
+.link-about:hover .span-about{
+    width: 100%;
+}
+
+.fa-arrow-right{
+    color: #ff8139;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.img-about{
+    height: 490px;
+    width: 50%;
+    top: -36px;
+    right: 20px;
+    position: absolute;
 }
