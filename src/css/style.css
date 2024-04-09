@@ -333,3 +333,14 @@ body{
     color: #100f10;
 }
 
+.testimonial{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.heading-testimonial{
+    text-align: center;
+    font-size: 42px;
+}
