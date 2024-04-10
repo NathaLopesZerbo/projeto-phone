@@ -484,6 +484,97 @@ body{
     height: 2px;
 }
 
-.for-origin{
+.form-origin{
     width: 100%;
+    height: 480px;
+    background-color: rgba(42,41,41); 
+    padding: 50px 30px;
+    border-radius: 8px;
+}
+
+.form-origin input{
+    color: #777;
+    font-size: 14px;
+    border: 1px solid #e4e3e3;
+    background-color: transparent;
+    border-radius: 5px;
+    outline: none;
+    padding: 16px 22px;
+    margin-bottom: 40px;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.856) !important;
+}
+
+.form-origin textarea{
+    height: 200px;
+    padding: 20px;
+    font-size: 14px;
+    background-color: transparent;
+    color: #777;
+}
+
+.btn-contact{
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    background-color: #f4813f;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1ex;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    border: 2px solid #ff8139;
+}
+
+.btn-contact:hover{
+    color: white;
+}
+
+.content-contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 8px 18px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading-content{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 42px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.heading-content span{
+    color: #f4813f;
+}
+
+.para-content{
+    font-size: 15px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.848);
+    margin: 16px 0px;
+}
+
+footer{
+   background-color: rgb(4, 4, 4);
+   margin: 0px 0px !important;
+   height: 10vh;
+   margin-top: 30px !important;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.para-footer{
+    margin: 0px 0px;
 }
