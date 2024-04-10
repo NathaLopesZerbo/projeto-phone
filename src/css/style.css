@@ -456,3 +456,34 @@ body{
     position: absolute;
     bottom: -68px !important;
 }
+
+.contact-form{
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading-contact{
+    font-size: 34px;
+    color: #f4813f;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.heading-contact::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    background-color: #ff8139;
+    width: 56px;
+    height: 2px;
+}
+
+.for-origin{
+    width: 100%;
+}
