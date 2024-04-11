@@ -137,6 +137,7 @@
 
     .about-us-container{
         padding-top: 15rem !important;
+        margin-bottom: 140px !important;
     }   
 
     .home-heading{
@@ -160,5 +161,88 @@
 
     .btn-home{
         text-align: center;
+    }
+
+    .content-about{
+        padding: 10px 20px;
+    }
+
+    .img-about{
+        height: 100%;
+    }
+
+    .heading-product{
+        margin-bottom: 60px;
+    }
+
+    .img-card{
+        height: 290px !important;
+    }
+
+    .btn-scroll{
+        display: none;
+    }
+
+    .container-content{
+        width: 80%;
+        height: 350px;
+    }
+
+    .heading-testimonial{
+        font-size: 34px;
+        line-height: 60px;
+    }
+
+    .para-testimonial{
+        font-size: 14px;
+        letter-spacing: 0px;
+        max-width: 600px;
+    }
+}
+
+@media (max-width:576px){
+    .img-home{
+        width: 340px;
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+
+    .home-heading{
+        font-size: 32px;
+        line-height: 52px;
+    }
+
+    .about-us-container{
+        padding-top: 2rem !important;
+    }
+
+    .heading-product{
+        font-size: 25px;
+        margin-top: 0px;
+    }
+
+    .container-content{
+        width: 70%;
+        height: auto;
+        padding: 11px;
+    }
+
+    .heading-testimonial{
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .img-client{
+        width: 90px;
+        height: -0px;
+    }
+
+    .client-name{
+        font-size: 18px;
+    }
+
+    .para-client{
+        font-size: 13px;
+        line-height: 21px;
     }
 }
